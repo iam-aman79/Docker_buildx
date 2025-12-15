@@ -26,3 +26,4 @@ docker login
 docker buildx build   --platform linux/amd64,linux/arm64   -t apsp/test-buildx/hello-app:latest   --push .
 docker buildx build   --platform linux/amd64,linux/arm64   -t apsp/test-buildx:latest   --push .
 docker buildx imagetools inspect apsp/test-buildx:latest
+# for testing
